@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	<!-- this shows the edittext_preference preference -->
+    <TextView
+        android:id="@+id/textview_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+	<!-- this shows the checkbox_preference preference -->
+    <TextView
+        android:id="@+id/textview_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+	<!-- this shows the SetPreferencesActivity activity -->
+    <Button
+        android:id="@+id/button_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_edit_label"
+        android:onClick="onEditClick"/><!-- function to show the edit activity -->
+
+</LinearLayout>

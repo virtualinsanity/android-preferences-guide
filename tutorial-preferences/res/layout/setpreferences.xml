@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	<!-- this is the preferences fragment -->
+    <fragment
+        android:id="@+id/fragment_preferences"
+        android:name="com.blogspot.virtualinsanity106.preferences.fragments.PreferencesTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+	<!-- this is the "Back" button -->
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_back_label"
+        android:onClick="onBackClick"/><!-- function to come back to the main activity -->
+
+</LinearLayout>

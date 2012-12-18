@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">Preferences Test Application</string>
+    <string name="button_back_label">Back</string>
+    <string name="button_edit_label">Edit Preferences</string>
+	<string name="checkbox_true">Checkbox selected</string>
+	<string name="checkbox_false">Checkbox not selected</string>
+	<string name="edittext_default_text">Preference not setted</string>
+</resources>
